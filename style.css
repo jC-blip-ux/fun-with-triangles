@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #e946ce;
+    --dark-gray: #6b7280;
+}
+
+
+
+/* navbar */
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-span {
+    font-size: 2.5rem;
+}
+
+.nav-pills {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.navigation .link {
+    color: white;
+    text-align: left;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.container {
+    padding: 0rem 1rem;
+    
+}
+
+/* lists */
+
+.list-nonbullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline-flex;
+    padding: 0rem 1rem;
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.footer-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.bout-me {
+    padding: 2rem;
+    margin: auto;
+    max-width: auto;
+}
+
+.fa-github:link,
+.fa-github:hover {
+    color: #495057;
+}
+
+.fa-twitter:link,
+.fa-twitter:hover {
+    color: #1da1f2
+}
+
+.fa-linkedin-in:link,
+.fa-linkedin-in:hover {
+    color: #0a66c2;
+}
+
+.fa-instagram:link,
+.fa-instagram:hover {
+    color: #c32aa3;
+}
+
+.fa-snapchat-ghost:link,
+.fa-snapchat-ghost:hover {
+    color: #fffc00;
+}
+
+.footer-icons{
+    transition:color 0.2s;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+.snap-code {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 3rem;
+}
